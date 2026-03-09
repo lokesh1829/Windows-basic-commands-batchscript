@@ -21,8 +21,10 @@ Execute the necessary commands/batch file for the desired output.
 
 
 # WINDOWS COMMANDS:
+~~~
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
+mkdir my-folder
 
 ## COMMAND AND OUTPUT
 
@@ -61,6 +63,7 @@ Compare the file hello.txt and rose.txt
 
 ## COMMAND AND OUTPUT
 
+~~~
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 
