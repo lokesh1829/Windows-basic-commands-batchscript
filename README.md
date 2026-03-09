@@ -29,12 +29,16 @@ mkdir my-folder
 ~~~
 
 ## COMMAND AND OUTPUT
+<img width="762" height="381" alt="image" src="https://github.com/user-attachments/assets/75a690a7-90c5-4f41-8ee0-75b119674d0e" />
+
 
 Remove the directory "my-folder"
 ~~~
 rmdir my-folder
 ~~~
 ## COMMAND AND OUTPUT
+ <img width="674" height="275" alt="image" src="https://github.com/user-attachments/assets/bfbc8e18-b8ce-4f36-a172-9d7f929c4070" />
+
 Create the file Rose.txt
 ~~~
 COPY CON Rose.txt
@@ -45,6 +49,7 @@ Too many employees watch it all the time
 ~~~
 
 ## COMMAND AND OUTPUT
+
 Create the file hello.txt using echo and redirection
 ~~~
 
