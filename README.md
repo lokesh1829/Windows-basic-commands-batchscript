@@ -49,6 +49,8 @@ Too many employees watch it all the time
 ~~~
 
 ## COMMAND AND OUTPUT
+<img width="523" height="238" alt="image" src="https://github.com/user-attachments/assets/d765e9e7-634d-4c81-afcc-1d4bb6600b38" />
+
 
 Create the file hello.txt using echo and redirection
 ~~~
@@ -58,6 +60,8 @@ type hello.txt
 ~~~
 
 ## COMMAND AND OUTPUT
+<img width="599" height="256" alt="image" src="https://github.com/user-attachments/assets/2266dcf5-c7e2-41c1-a612-38bac5a2095e" />
+
 
 Copy the file hello.txt into the file hello1.txt
 ~~~
@@ -66,45 +70,53 @@ copy hello.txt hello1.txt
 ~~~
 
 ## COMMAND AND OUTPUT
+<img width="516" height="127" alt="image" src="https://github.com/user-attachments/assets/0118d272-95f2-4f7e-95ae-f725c44ec0f4" />
+
 
 Remove the file hello1.txt
 
 ~~~
 
 del hello1.txt
-dir hello1.txt
 ~~~
 ## COMMAND AND OUTPUT
+<img width="482" height="309" alt="image" src="https://github.com/user-attachments/assets/d84a078e-e464-4482-810c-94c3c6fa943c" />
+
 
 List out the file hello1.txt in the current directory
+~~~
+dir hello1.txt
+~~~
+
+## COMMAND AND OUTPUT
+<img width="482" height="309" alt="image" src="https://github.com/user-attachments/assets/d84a078e-e464-4482-810c-94c3c6fa943c" />
+
+
+
+List out all the associated file extensions 
 ~~~
 assoc | more
 ~~~
 
 ## COMMAND AND OUTPUT
+<img width="463" height="327" alt="image" src="https://github.com/user-attachments/assets/718c1a1d-c175-479a-8abb-d3a717ce189a" />
 
-List out all the associated file extensions 
+Compare the file hello.txt and rose.txt
 ~~~
 fc hello.txt Rose.txt
 ~~~
 
 ## COMMAND AND OUTPUT
-
-Compare the file hello.txt and rose.txt
-~~~
-BATCH SCRIPT
-Open Notepad with filename 1.bat and type the following batch script
-@echo off
-set name=John
-echo Hello, %name%!
-pause
-~~~
-
-## COMMAND AND OUTPUT
+<img width="525" height="245" alt="image" src="https://github.com/user-attachments/assets/f1171bb8-6001-46e0-99b8-bce3e729a470" />
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 ~~~
+@echo off
+set name=John
+echo Hello, %name%!
+pause
+
 Execute the batch file 1.bat
 ~~~
 
@@ -112,6 +124,7 @@ Execute the batch file 1.bat
 
 
 ## OUTPUT
+<img width="521" height="191" alt="image" src="https://github.com/user-attachments/assets/672b524d-d1cb-487b-a412-4ae6f838e447" />
 
 
 
@@ -146,6 +159,7 @@ pause
 
 ## OUTPUT
 
+<img width="602" height="330" alt="image" src="https://github.com/user-attachments/assets/8283b51e-b583-4464-aeb4-f61910d386f8" />
 
 
 
@@ -161,6 +175,8 @@ pause
 
 
 ## OUTPUT
+
+<img width="412" height="175" alt="image" src="https://github.com/user-attachments/assets/7f523d15-e268-4052-bef9-96680e7713da" />
 
 
 
@@ -183,6 +199,8 @@ if exist sample.txt (
 pause
 ~~~
 ## OUTPUT
+<img width="785" height="240" alt="image" src="https://github.com/user-attachments/assets/3c29c0c1-42d4-4fa5-8a0f-2bda49981cca" />
+
 
 
 Write a batch script that displays a simple menu with three options:
@@ -214,6 +232,8 @@ echo Goodbye!
 pause
 ~~~
 ## OUTPUT
+<img width="533" height="425" alt="image" src="https://github.com/user-attachments/assets/e4a6f044-20b7-4e89-b689-4519b5f539d1" />
+
 
 
 
